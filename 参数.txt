@@ -1,7 +1,7 @@
 命令行执行如下：
-ech-win -l 127.0.0.1:8080 -f cf绑定域名[pages.dev]:443 -pyip tw.william.us.ci -token ECH -ip 优选域名或者ip(ipv4或ipv6)
-ech-win -f cf绑定域名:443 -pyip tw.william.us.ci -token ECH -ip 104.16.0.0
-ech-win -f cf绑定域名:443 -pyip 211.48.77.114:12312 -token ECH -ip 104.16.0.0
+ech-win -l 127.0.0.1:8080 -f 部署域名:443 -pyip tw.william.us.ci -token ECH -ip 优选域名或者ip(ipv4或ipv6)
+ech-win -f 部署域名:443 -pyip tw.william.us.ci -token ECH -ip 104.16.0.0
+ech-win -f 部署域名:443 -pyip 211.48.77.114:12312 -token ECH -ip 104.16.0.0
 
 Usage of ech-win:
   -dns string
@@ -18,3 +18,4 @@ Usage of ech-win:
         代理服务器 IP（用于 Worker 连接回退）
   -token string
         身份验证令牌
+
