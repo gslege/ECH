@@ -1,11 +1,12 @@
 @echo off
 title ech-workers Client
 
-cd d:\科学上网Worker\ech客户端及js
+cd d:\Worker\ech
    ech.exe^
-  -f ech.lege.asia:443^
+  -f 部署域名:443^
   -l 127.0.0.1:8080^
   -pyip proxyip.cmliussss.net^
-  -token gslege^
-  -ip ech.lege.asia
+  -token ECH^
+  -ip www.shopify.com
+
 pause
