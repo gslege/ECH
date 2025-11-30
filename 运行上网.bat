@@ -1,7 +1,7 @@
 @echo off
 title ech-workers Client
 
-cd d:\Worker\ech
+cd d:\Worker\ech\ECH.exe
    ech.exe^
   -f 部署域名:443^
   -l 127.0.0.1:8080^
@@ -10,3 +10,4 @@ cd d:\Worker\ech
   -ip www.shopify.com
 
 pause
+
