@@ -1,6 +1,6 @@
 import { connect } from 'cloudflare:sockets';
 
-const TOKEN = 'gslege';
+const TOKEN = 'ECH';
 const encoder = new TextEncoder();
 
 export default {
@@ -177,4 +177,5 @@ function safeCloseWebSocket(ws) {
             ws.close(1000, 'Server closed');
         }
     } catch { }
+
 }
