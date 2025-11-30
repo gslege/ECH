@@ -9,3 +9,5 @@
   4，修改运行上网.bat文件内代码路径或其它参数
   
   5，双击运行上网.bat文件即可上网</b>
+
+注：workers、pages、snippets三种部署都支持, TOKEN=xxx 部署时请更换
